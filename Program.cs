@@ -7,7 +7,7 @@
 string[] arr1 = new string[4] { "hello", "world", "2", ":-)" };
 string[] arr2 = new string[arr1.Length];
 
-void Array(string[] array1, string[] array2)
+void LengthArray(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -27,6 +27,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-Array(arr1, arr2);
+LengthArray(arr1, arr2);
 PrintArray(arr1);
 PrintArray(arr2);
